@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          div{
+             width: 60px;
+             height: 80px;
+             /* border: 1px solid black; */
+             font-size: 85px;
+             text-transform: uppercase;
+             text-align: center;
+             position: relative;
+             left: 620px;
+             top:10px ;
+            
+             
+          }
+          #back{
+            width: 60px;
+            height: 80px;
+            background:linear-gradient(rgb(255, 5, 222),rgb(255, 238, 2)) ;
+            position: absolute;
+            top: 0;
+            left: 630px;
+            z-index:-1 ;
+            animation: text 15s infinite;
+        }
+        @keyframes text{
+            0%{position: absolute;top: 0px;}
+            100%{position: absolute;top: 800px;}
+        }
+
+    </style>
+</head>
+
+<body bgcolor="black">
+    <div id="back"></div>
+    <div class="div1">V</div>
+    <div class="div2">A</div>
+    <div class="div3">I</div>
+    <div class="div4">S</div>
+    <div class="div5">H</div>
+    <div class="div6">N</div>
+    <div class="div7">A</div>
+    <div class="div8">V</div>
+    <div class="div9">I</div>
+</body>
+</html>
